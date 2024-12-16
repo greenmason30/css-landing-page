@@ -50,7 +50,7 @@ ul {
 .site-summary {
     color: #f9faf8;
     background-color: #1f2937;
-    height: 400px;
+    height: 500px;
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -84,13 +84,47 @@ ul {
 
 .site-img img {
     flex: 1 1 auto;
-    /* width: auto;
-    height: 100%; */
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-img {
-    width: 200px;
+.random-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.info-cards {
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    gap: 20px;
+}
+
+.info-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* img {
+    width: 200px;
+} */
 
 /* General */
